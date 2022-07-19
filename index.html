@@ -76,14 +76,23 @@
     // https://firebase.google.com/docs/web/setup#available-libraries
 
     // Your web app's Firebase configuration
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
     const firebaseConfig = {
-      apiKey: "AIzaSyD0YT3u-r7R53h2rtPO0FYMM1rrv9Xbl4M",
-      authDomain: "ordem-ficha.firebaseapp.com",
-      projectId: "ordem-ficha",
-      storageBucket: "ordem-ficha.appspot.com",
-      messagingSenderId: "543944476352",
-      appId: "1:543944476352:web:56edc79e7af373b5354f25"
+      apiKey: "AIzaSyAySNvkgeJn6ReHcriD3gUFF7VtFRrTjFc",
+      authDomain: "fichaderpg-83c00.firebaseapp.com",
+      projectId: "fichaderpg-83c00",
+      storageBucket: "fichaderpg-83c00.appspot.com",
+      messagingSenderId: "126298430062",
+      appId: "1:126298430062:web:c46bffe2256dcadd2ee47f"
     };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
